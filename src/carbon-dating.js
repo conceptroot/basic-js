@@ -19,7 +19,7 @@ const E_LOG_2 = 0.693
  *
  */
 function dateSample(sampleActivity) {
-  console.log('#incoming sampleActivity:', sampleActivity)
+  // console.log('#incoming sampleActivity:', sampleActivity)
   if (typeof sampleActivity !== 'string') return false
   if (!Number(sampleActivity)) return false
 
